@@ -1,0 +1,15 @@
+@font-face {
+       font-family: 'Mansalva';
+       src:  url('./fonts/Mansalva.woff2') format('woff2');            
+       font-weight: 600;
+       font-style: normal;
+     }
+
+h1{
+    background: red;
+    color: white;
+}
+body{
+    background: blue;
+    font-family: 'Mansalva';
+}
