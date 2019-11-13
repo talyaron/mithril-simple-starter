@@ -1,0 +1,25 @@
+[debug] [2019-11-13T13:07:13.647Z] ----------------------------------------------------------------------
+[debug] [2019-11-13T13:07:13.653Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-11-13T13:07:13.653Z] CLI Version:   7.7.0
+[debug] [2019-11-13T13:07:13.654Z] Platform:      win32
+[debug] [2019-11-13T13:07:13.654Z] Node Version:  v10.15.0
+[debug] [2019-11-13T13:07:13.657Z] Time:          Wed Nov 13 2019 15:07:13 GMT+0200 (GMT+02:00)
+[debug] [2019-11-13T13:07:13.657Z] ----------------------------------------------------------------------
+[debug] [2019-11-13T13:07:13.657Z] 
+[debug] [2019-11-13T13:07:13.683Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-13T13:07:13.685Z] > authorizing via signed-in user
+[debug] [2019-11-13T13:07:13.686Z] [iam] checking project fir-dev-1a3fb for permissions ["firebase.projects.get"]
+[debug] [2019-11-13T13:07:13.689Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-dev-1a3fb:testIamPermissions  
+
+[debug] [2019-11-13T13:07:14.817Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-13T13:07:14.823Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fir-dev-1a3fb  
+ 
+[debug] [2019-11-13T13:07:15.381Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Lenovo\Documents\gitHub\mithril-simple-starter'...
+[info] 
+[debug] [2019-11-13T13:07:15.401Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fir-dev-1a3fb/webApps/-/config  
+ 
+[debug] [2019-11-13T13:07:16.011Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000

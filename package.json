@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "dependencies": {
+    "firebase": "^7.3.0",
     "mithril": "^2.0.4"
   },
   "devDependencies": {
